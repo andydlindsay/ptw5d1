@@ -1,0 +1,40 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0299CC;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  color: #FFFFFF;
+  margin-right: 50px;
+  font-size: 32px;
+}
+
+div:last-child {
+  margin-right: 0;
+}
+
+.first-square {
+  background-color: #ffc726;
+}
+
+.second-square {
+  background-color: indigo;
+}
