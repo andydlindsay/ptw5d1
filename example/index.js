@@ -11,4 +11,11 @@ $(document).ready(function() {
   $('main').on('mouseleave', function() {
     $('.second-square').hide(500).show(500).hide(500).show(500);
   });
+
+  $('form').submit(function (event) {
+    event.preventDefault();
+    var value = $('#user').val();
+    console.log(value);
+    // console.log(event);
+  });
 });
